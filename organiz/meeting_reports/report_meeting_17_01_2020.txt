@@ -1,0 +1,13 @@
+Compte-rendu premier rdv client 17/01/2020
+Le but est de créer une application simple à utiliser avec laquelle on peut rapidement lancer une playlist de musiques.
+Il faut une interface simple qui permet au minimum de jouer la musique, skipper le morceau, dire "j'aime" ou "j'aime pas"...
+Il faut limiter le nombre d'intéractions pour pouvoir lire de la musique rapidement.
+Pour récupérer les données on peut utiliser deezer et spotify (voir peut-être en fin de projet pour utiliser les 2)
+Il faut pouvoir récupérer les logs d'utilisation de l'application.
+On doit récupérer et stocker les données en local. Il n'y a pas d'impératif pour la base de données.
+Un utilisateur se connecte à l'application et les autres utilisateurs connectent leur compte spotify sur le même téléphone.
+Il faut trouver un compromis entre la facilité d'utilisation et la sécurité (privilégier la facilité).
+On doit utiliser différentes stratégies pour générer une playlist (plus aimées, moins détestées,...)
+En option, on peut indiquer d'où vient la musique (de quel utilisateur) et faire une interface améliorée qui affiche par exemple la pochette de la musique écoutée.
+On peut utiliser une stratégie qui se base sur les genres et les descripteurs des musiques.
+Il faut gérer les limites des comptes gratuits (qui ne permettent pas de skipper).

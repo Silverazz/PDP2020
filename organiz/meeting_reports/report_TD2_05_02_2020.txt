@@ -1,0 +1,18 @@
+Compte-rendu du deuxième TD avec M. Narbel :
+
+Proposition de connexion sur plusieurs plateformes de streaming ==> Spotify ET Deezer hautement recommandé.
+Comparer les algorithmes entre eux, leurs méthodes, est-ce que l'algorithme le moins sophistiqué est aussi bon au niveau du résultat que celui qui est le plus sophistiqué ? ==> Des tests doivent être impérativement créés entre les algorithmes afin de déterminer qui est le meilleur sur les données testées.
+
+Plusieurs types de tests :
+- Test hors connexion, avec des fausses données.
+- Test avec authentification Spotify, vraies données.
+
+Modifier la bibliographie, mettre en clair les dates d'accès aux URL, mettre les dates des références, mettre les bornes des pages consultées si nécessaire, rajouter le fait que ce soit la partie Android SDK sur l'API Spotify que nous avons vu.
+Le premier diagramme de faisabilité n'en est pas un : néanmoins, il démontre l'utilisation de l'API Spotify, les réponses envoyées par cette dernière, et le fait qu'on puisse récupérer des données. Réfléchir là-dessus.
+Quantification des besoins non-fonctionnels attendus. Par exemple pour les performances, les temps de réponse. Premier point délicat avec le professeur sur la première phrase du besoin non-fonctionnel concernant les performances : "L'application doit être impérativement performante" ==> à revoir. 
+Pour la sécurité, revoir certains points.
+
+Nécessité de trouver un pattern pour l'architecture de notre projet : le pattern "Stratégie" a été proposé par le professeur.
+
+Par rapport au cahier des besoins, les algorithmes seraient bien vus dans la partie introduction, donc avant l'existant.
+Le professeur a émis le fait qu'il serait peut-être préférable de découper le cahier des besoins de telle sorte que l'on ait une partie "test" à l'intérieur, plutôt que mettre les tests à chaque besoin fonctionnel/non-fonctionnel, sous forme de rubrique comme sur les diapositives ==> prise de liberté par rapport au format du professeur.

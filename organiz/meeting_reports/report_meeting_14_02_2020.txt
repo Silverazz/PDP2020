@@ -1,0 +1,15 @@
+Compte-rendu rdv client 14/02/2020 :
+
+-> tester différentes approches pour générer des notes
+	1- rating implicite : musique mise en favori, like/dislike, écouté récement, écouté en entier...
+	2- récupérer le genre des musiques des playlists des utilisateurs
+	3- recommandation basée sur le contenu
+		- faire une moyenne en utilisant les descripteurs des musiques
+		- trouver le morceau moyen ou médian
+		- il faudrait tout le catalogue
+		
+-> pour la lecture des morceaux on peut utiliser directement le media player de spotify
+-> récupérer l'information de l'utilisateur qui skippe un morceau (qui?)
+-> toujours se tourner vers la simplicité
+-> exporter les logs en csv à partir de la base de données
+-> le plus important est de se concentrer sur les algos et de les comparer

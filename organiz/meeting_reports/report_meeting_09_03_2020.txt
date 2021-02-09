@@ -1,0 +1,11 @@
+Compte-rendu rdv chargé de td 09/03/20 :
+
+- pour le media player : faire une méthode qui englobe l'appel à Spotify ou Deezer
+- il faut s'adapter aux contraintes (deezer seulement pendant 30 secondes)
+- mettre l'accent sur spotify
+- il faut essayer de faire la séparation "pour l'exercice"
+- être le plus générique sans que ça soit compliqué
+- commencer par utilisateurs seulement de spotify ou seulement de deezer
+- pas besoin d'être exhaustif
+- il faut tester les algos au delà de la satisfaction
+- tests avec des utilisateurs artificiels, fixer des cas de base, important de tester hors connexion

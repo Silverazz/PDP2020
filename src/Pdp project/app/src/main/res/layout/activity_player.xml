@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Player">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="right"
+        android:paddingBottom="20dp">
+
+
+        <ImageView
+            android:id="@+id/userAdd"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="10dp"
+            android:onClick="onAddUserClicked"
+            app:srcCompat="@drawable/outline_person_add_white_18dp" />
+
+        <ImageView
+            android:id="@+id/people"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="10dp"
+            android:onClick="onListUserClicked"
+            app:srcCompat="@drawable/outline_people_outline_white_18dp" />
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:onClick="onSettingClicked"
+            app:srcCompat="@drawable/outline_settings_white_18dp" />
+
+
+
+    </LinearLayout>
+
+
+    <!--    cover image-->
+    <ImageView
+        android:id="@+id/cover_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        app:layout_constraintDimensionRatio="1:1"
+        tools:srcCompat="@drawable/widget_placeholder"/>
+
+    <TextView
+        android:id="@+id/current_track_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:lines="2"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:visibility="visible"
+        android:layout_below="@+id/cover_image" />
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/current_track_label"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true"
+        />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seek_bar"
+        android:gravity="center"
+        android:paddingBottom="20dp">
+
+        <ImageButton
+            android:id="@+id/toggle_shuffle_button"
+            android:layout_width="48dp"
+            android:layout_height="96dp"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="onToggleShuffleButtonClicked"
+            android:background="?attr/actionBarItemBackground"
+            app:srcCompat="@drawable/btn_shuffle" />
+
+        <ImageButton
+            android:id="@+id/skip_prev_button"
+            android:layout_width="48dp"
+            android:layout_height="96dp"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="onSkipPreviousButtonClicked"
+            android:background="?attr/actionBarItemBackground"
+            app:srcCompat="@drawable/btn_prev" />
+
+        <ImageButton
+            android:id="@+id/play_pause_button"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="onPlayPauseButtonClicked"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/btn_play" />
+
+        <ImageButton
+            android:id="@+id/skip_next_button"
+            android:layout_width="48dp"
+            android:layout_height="96dp"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="onSkipNextButtonClicked"
+            android:background="?attr/actionBarItemBackground"
+            app:srcCompat="@drawable/btn_next" />
+
+        <ImageButton
+            android:id="@+id/toggle_repeat_button"
+            android:layout_width="48dp"
+            android:layout_height="96dp"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="onToggleRepeatButtonClicked"
+            android:background="?attr/actionBarItemBackground"
+            app:srcCompat="@drawable/btn_repeat" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+Compte-rendu rdv chargé de td 24/02/20 :
+
+-> retour sur le cahier des charges
+	- introduction : problème d'incohérence dans l'écriture, notion de playlist globale pas expliquée
+	- existent : 
+		* discuter avec l'autre groupe
+		* flou sur la description de l'algorithme
+		* il faut insister sur les points que l'on peut reprendre
+		* "existent nécessaire" dans outils
+		* Deezer apparait trop tard
+	- il faut se détacher de l'API Spotify, il ne faut pas conditionner une partie du logiciel à l'extérieur, il faut maximiser ce qui est constant
+	- pour les algorithmes on peut essayer de prendre en compte l'historique (les utilisteurs les moins bien servi pendant la création de la playlist)
+	- description des besoins :
+		* 1er besoin "gros paté" et on ne parle pas de téléphone avant
+		* besoin d'assurer la connexion sur une plateforme (on précise Spotify ou Deezer après)
+	- la notion des logs d'écoute n'est pas claire
+	- JSON vraiment nécessaire ? bien pour les structures
+	- expliquer le fait qu'on sélectionne la personne qui "like" ou "dislike"
+	- mieux expliquer le fait qu'on utilise qu'un seul téléphone
+	- la taille fixé à 50 par défaut est un besoin non fonctionnel
+	- partie sur la fiabilité inutile
+	- partie sur la sécurité : la notion de "menace" est moyenne, il faut mieux expliquer la partie admin
+	- des parties qui sont dans le non fonctionnel sont à mettre dans le fonctionnel (voir les verbes)
+	- duplication dans le schéma -> séparer dans l'archi mais proche
+	- rajouter les dates d'accés à la bibliographie
+	- réfléchir pour marcher avec plusieurs plateformes -> minimiser le lien à Spotify

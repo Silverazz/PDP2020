@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Equify</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_deezer_login">Deezer</string>
+    <string name="prompt_spotify_login">Spotify</string>
+    <string name="prompt_logs">Logs</string>
+    <string name="prompt_adduser">Ajouter un nouvel utilisateur</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+    //remote player
+    <string name="title_player_context">Player Context</string>
+    <string name="subscribe_to_current_track">Subscribe to playerstate</string>
+    <string name="err_generic_toast">An error has occurred. Check the logs to know more.</string>
+    <string name="command_feedback">"'%1$s' command successful!"</string>
+</resources>

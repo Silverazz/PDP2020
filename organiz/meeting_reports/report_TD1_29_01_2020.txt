@@ -1,0 +1,16 @@
+Les deux besoins principaux du projet sont :
+1) créer un algorithme qui mixe des musiques provenant de différents utilisateurs pour former une playlist commune
+2) créer une application simple d'utilisation pour écouter la playlist
+
+Pour les tests de faisabilités on peut faire des captures d'écran de la connexion avec spotify, montrer qu'une base de données est possible et montrer que les besoins fonctionnels peuvent être respectés.
+
+Pour le premier besoin, on va utiliser différentes tactiques et différents algorithmes.
+
+Dans le cahier des besoins, il faut décrire le scénario d'utilisation de l'application (connexion, ajout des utilisateurs, génération de la playlist, lecture des titres, déconnexion...)
+Peut être fait par des schémas et des diagrammes.
+
+Il faut justifier le choix de la base de données (qui va alourdir l'application) et décrire comment on compte l'utiliser et ce qu'il y a dedans.
+
+Il est important d'augmenter la complexité et "pousser les limites" de l'application.
+
+On doit mettre en place des tactiques de tests. On peut créer des tests où on pourra prévoir le résultat et vérifier qu'on obtient bien la sortie attendue. On peut créer un simulateur avec des faux utilisateurs.

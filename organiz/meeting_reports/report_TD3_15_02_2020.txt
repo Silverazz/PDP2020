@@ -1,0 +1,28 @@
+Compte-rendu rdv chargé de td 15/02/2020 :
+
+-> retour sur le cahier des besoins :
+	- dans l'ensemble bon document
+	- il faut s'impliquer dans la formulation des phrases
+	- il faut charger, estimer le temps
+	- manque les avantages et inconvénients des algos
+	- préciser quel algorithme de tri
+	- la sécurité est un besoin fonctionnel
+	- virer le "blabla"
+	- écrire les algos en pseudo-code
+	
+-> stratégie pour les genres compromis
+-> banque de données de musiques pour récupérer les infos
+-> stratégie descripteurs
+	- distance (à l'infini, valeur absolu, au carré) la plus faible par rapport à la moyenne
+	- choisir quelle distance dans la pratique
+-> on peut mesurer le temps avant un skip
+-> déterminer au bout de combien de skips il faut changer
+-> proposer plusieurs listes à l'utilisateur
+-> expérience de sociologie (chaîne youtube hygiène mentale)
+-> stratégie de l'autre groupe :
+	- moyenne des descripteurs pour chaque user selon les musiques qu'il écoute
+	- sous forme de matrice, algèbre linéaire
+	
+-> 1ère release : au moins valider tous les concepts pour être sûr d'aller jusqu'au bout
+-> il faut anticiper les "zones d'ombre", ce qui risque de poser problème
+-> faire un diagramme de classe et comparer avec le scénario
